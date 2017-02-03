@@ -1,0 +1,52 @@
+
+a {text-decoration: none;}
+
+.intro {
+height: auto;
+width: 70%;
+text-align:justify;
+vertial-align:top;
+margin:0 auto;
+font-size:150%;}
+
+.otherprojects{
+  width: 80%;
+  margin: 0 auto;
+  /*display:flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  column-count:5;*/
+
+}
+
+.otherprojects-item {
+  height:175px;
+  min-width:150px;
+  max-width:300px;
+  width: 24.75%;
+  float:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.otherprojects-item a{
+  display:block;
+  margin:0 auto;
+
+
+  }
+
+.clear {
+  clear:both;
+}
+
+.footer{
+  text-align:center;
+  width:70%;
+  margin:10px auto;
+  border-top:.5px solid #aaa}
+
+.footer ul,.footer ul li{
+  display:inline;
+  padding:0;
+  margin:0 10px}

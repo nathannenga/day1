@@ -1,0 +1,337 @@
+
+* { box-sizing:border-box;}
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #f4faf8;
+  position:fixed;
+  top:0;
+  display: flex;
+  justify-content:space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hamburger-holder {
+  height:50px;
+  width:50px;
+  background-color: #eee;
+}
+
+.image-main {
+  background-image: url("http://barbiereslc.com/img/BarbSLC-6.jpg");
+  background-position:center;
+  background-size: cover;
+  height: 380px;
+  width: 100%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.main-inner {
+  height:180px;
+  width:100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+
+
+}
+
+.logo {
+  width: 220px;
+}
+
+
+.appointment-button {
+  height:55px;
+  width:246px;
+  background-color:#e6f2ee;
+  text-transform:uppercase;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+
+}
+
+.def-section {
+width: 100%;
+height: 240px;
+background-color:#e9f2ee;
+display:flex;
+align-items:center;
+justify-content:center;
+padding: 40px 40px;
+
+}
+.def-section p {
+  max-width: 350px;
+}
+
+.about {
+min-height:800px;
+width: 100%;
+background-color: #f4faf8;
+padding: 100px 20px 50px 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+
+.about-conatiner-container {
+
+}
+
+.about-container {
+  max-width: 690px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading {
+  width:100%;
+  font-size: 20px;
+  display:flex;
+  justify-content:center;
+
+}
+
+.about-text {
+  text-align: left;
+
+}
+
+.about img {
+
+  display: none;
+}
+
+.map-box {
+  width:auto;
+  max-width:690px;
+  height:250px;
+  background-color: #eee;
+
+
+}
+
+.alert-bar {
+  width: 100%;
+  height: 40px;
+  background-color:#e9f2ee;
+display: flex;
+justify-content:center;
+align-items:center;
+font-weight:bold;
+font-size: 12px;
+}
+
+.book-appointment {
+  width: 100%;
+  height:766px;
+  background-color:#3b4650;
+  padding-top: 100px;
+  padding-bottom:50px;
+  color:white;
+
+}
+
+.contact-container {
+  width:100%;
+  height: auto;
+  background-color: #f4faf8;
+  padding-top: 100px;
+  padding-bottom:50px;
+  color: #3b4650;
+
+}
+
+.contact-icon-container{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
+  margin-top: 25px;
+
+}
+
+.contact-icons {
+  width: 200px;
+  height: 115px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-placeholder {
+  width:50px;
+  height:50px;
+  background-color:#3b4650;
+}
+
+.footer {
+  width:100%;
+  height:129px;
+  background-color:#f4faf8;
+  padding: 30px 30px;
+
+
+}
+
+.copyright {
+  padding-top:30px;
+    border-top: 1px solid #eee;
+    text-align:center;
+}
+
+
+@media screen and (min-width: 770px) {
+
+  .about-conatiner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+.about img {
+  display:unset;
+  width:450px;
+  height: auto;
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*.contact-icon-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+
+
+
+
+.contact-icons {
+  width: 250px;
+  height: 115px;
+
+
+}*/
+
+}
+
+@media screen and (min-width: 990px) {
+
+ .about {
+  height: auto;
+  width: 100%;
+  background-color: #f4faf8;
+  padding: 0px 20px 50px 20px;
+  display:block;
+}
+
+.about-conatiner-container {
+  max-width:900px;
+  height:600px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+}
+
+
+.about img {
+    display:unset;
+    width:360px;
+    height: auto;
+    margin-top:0px;
+    float:right;
+    margin-right:0;
+    margin-left:0;
+}
+
+.about-container {
+  max-width: 450px;
+  float:left;
+  margin-left:0;
+  margin-right:0;
+  padding-left:50px;
+}
+
+.contact-icon-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  max-width:900px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+
+.contact-icons {
+  width: 250px;
+  height: 115px;
+
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .about-conatiner-container {
+    height:600px;
+    max-width:1050px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .about-container {
+    max-width: 500px;
+    float:left;
+    margin-left:0;
+    margin-right:0;
+    padding-left:50px;
+  }
+
+  .about img {
+      display:unset;
+      width:450px;
+}
+
+.contact-icon-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  max-width:1150px;
+}
+
+.contact-icons {
+  width: 150px;
+  height: 115px;
+
+}
